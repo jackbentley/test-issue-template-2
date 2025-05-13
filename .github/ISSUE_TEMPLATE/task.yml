@@ -1,6 +1,5 @@
 name: Task
 description: General work item or operational task
-type: 'Task'
 body:
   - type: input
     id: summary

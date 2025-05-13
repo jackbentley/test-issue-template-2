@@ -1,6 +1,5 @@
 name: Investigation
 description: Research or explore a topic to gather insight before implementation
-type: 'Investigation'
 body:
   - type: input
     id: objective
