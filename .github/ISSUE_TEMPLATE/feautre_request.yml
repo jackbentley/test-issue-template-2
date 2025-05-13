@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+type: 'Feature'
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A short, clear description of the feature
+      placeholder: e.g. Add dark mode toggle to settings
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: e.g. Users have requested a dark mode to reduce eye strain during night-time use. This feature would improve usability and user satisfaction, especially for power users who spend long hours in the app.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: High-level details on the system functionality
+      placeholder: e.g. The system should allow users to toggle dark mode from the settings menu
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Specific, testable conditions for the feature to be considered complete
+      placeholder: |
+        1. The dark mode toggle must persist after the app is restarted.
+        2. When dark mode is enabled, all text must be white and the background dark.
+        3. The feature should work on both desktop and mobile.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Possible Alternatives
+      description: Are there any possible alternatives or workarounds for this feature?
+      placeholder: e.g. Users can currently adjust their device’s display settings as a workaround, but this affects all apps, not just ours. Another option might be using a browser extension to force dark mode.
+
+  - type: input
+    id: requester
+    attributes:
+      label: Requested By / Contact Person
+      description: Who requested this feature or who should be contacted for details?
+      placeholder: e.g. Jane Doe, ACME Product Team
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or screenshots

@@ -1,0 +1,35 @@
+name: Investigation
+description: Research or explore a topic to gather insight before implementation
+type: 'Investigation'
+body:
+  - type: input
+    id: objective
+    attributes:
+      label: Objective
+      description: What are we trying to learn or solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What will and won't be covered in this investigation?
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach
+      description: How do you plan to investigate this?
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: What will be produced as a result?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Anything else to keep in mind? (e.g., blockers, risks)

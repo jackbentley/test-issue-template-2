@@ -1,0 +1,28 @@
+name: Task
+description: General work item or operational task
+type: 'Task'
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Task Summary
+      description: A short description of the task
+      placeholder: e.g. Update library to latest version
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List what must be done for this task to be considered complete
+      placeholder: |
+        - [ ] Item 1
+        - [ ] Item 2
+        - [ ] Item 3
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other details or resources
